@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	max-width: 100px;
+}
+.logo img{
+	width: 100%;
+}
+.header {
+	height: 124px;
+	outline: 1px solid red;
+}
+.header-box,
+.footer-box{
+	outline: 1px solid red;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.main {
+}
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer {
+	outline: 1px solid red;
+	height: 156px;
+}
+
+.footer-nav{
+	flex-grow: 1;
+}
