@@ -4,50 +4,86 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Delivery Food</title>
+	<!-- add Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+	<!-- add My Style -->
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header class="header">
-
-		<div class="container">
-			<div class="header-box">
-				<div class="header-logo logo">
-					<img src="img/logo.png" alt="logo Delivery Food">
+	<div class="page-wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header-box">
+					<div class="header-logo logo">
+						<img src="img/logo.png" alt="logo Delivery Food">
+					</div>
+					<div class="header-controls">
+						<button class="btn btn-primary">
+							<img src="img/icons/user.png" alt="user">
+							Войти
+						</button>
+						<button class="btn btn-outline">
+							<img src="img/icons/shope.png" alt="shope">
+							Корзина
+						</button>
+					</div>
 				</div>
-				<div class="header-controls">
-					<button class="btn btn-primary">
-						<img src="img/icons/user.png" alt="user">
-						Войти
-					</button>
-					<button class="btn btn-outline">
-						<img src="img/icons/shope.png" alt="shope">
-						Корзина
-					</button>
+				<!-- /.header-box -->
+			</div>
+		</header>
+		<!-- /.header -->
+		<main class="main">
+			
+			<div class="container">
+				<section class="banner">
+					<div class="banner-item">
+						<div class="banner-item-text">
+							<h2 class="banner-item--title">
+								Онлайн-сервис <br> доставки еды на дом
+							<h2/>
+							<p class="banner-item--subtitle">
+								Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
+							</p>
+						</div>
+					</div>
+				</section>
+				<section class="products">
+					<div class="products-header">
+						<h3 class="products-header--title">Рестораны</h3>
+						<input 
+							type="text" 
+							class="products-header--search" 
+							placeholder="Поиск блюд и ресторанов">
+					</div>
+				</section>
+			</div>
+		</main>
+		<!-- /.main -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-box">
+					<div class="footer-logo logo">
+						<img src="img/logo.png" alt="logo Delivery Food">
+					</div>
+					<div class="footer-nav">
+						<ul>
+							<li>Ресторанам</li>
+							<li>Курьерам</li>
+							<li>Пресс-центр</li>
+							<li>Контакты</li>
+						</ul>
+					</div>
+					<div class="footer-social">
+						<img src="img/sociale/instagram.png" alt="instagram">
+						<img src="img/sociale/facebook.png" alt="facebook">
+						<img src="img/sociale/vk.png" alt="vk">
+					</div>
 				</div>
 			</div>
-			<!-- /.header-box -->
-		</div>
-	</header>
-	<!-- /.header -->
-	<main class="main">
-		main
-		<div class="container">
-			container
-		</div>
-	</main>
-	<!-- /.main -->
-	<footer class="footer">
-
-		<div class="container">
-			<div class="footer-box">
-				<div class="footer-logo logo">
-					<img src="img/logo.png" alt="logo Delivery Food">
-				</div>
-				<div class="footer-nav">nav</div>
-				<div class="footer-social">social</div>
-			</div>
-		</div>
-	</footer>
-	<!-- /.footer -->
+		</footer>
+		<!-- /.footer -->
+	</div>
 </body>
 </html>
